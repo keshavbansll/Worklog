@@ -1,0 +1,26 @@
+* {
+    text-align: center;
+    font-family: "poppins";
+    color: white;
+}
+
+body {
+    background-color: rgb(2, 0, 16);
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 0.5em;
+    margin-bottom: 0.1em;
+}
+
+.nav {
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+li {
+    display: inline;
+}
