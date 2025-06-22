@@ -1,7 +1,10 @@
 * {
-    text-align: center;
     font-family: "poppins";
     color: white;
+}
+
+header, nav, footer {
+    text-align: center;
 }
 
 body {
@@ -9,9 +12,12 @@ body {
 }
 
 h1 {
+
+    color: rgb(235, 235, 245);
     font-size: 60px;
     margin-top: 0.5em;
     margin-bottom: 0.1em;
+    text-shadow: 0 2px 8px rgb(62, 62, 62);
 }
 
 .nav {
@@ -24,9 +30,48 @@ h1 {
 }
 
 .nav:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 li {
     display: inline-block;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+#certificates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.cert_text {
+    padding: 15px;
+}
+
+.cert_text p {
+    margin: 0;
+}
+
+.cert {
+    background-color: rgb(5, 1, 33);
+    display: flex;
+    width: 550px;
+    height: 230px;
+    border: 2px solid white;
+    margin: 2px 0 2px 0;
+    border-radius: 15px;
+    box-shadow: 8px 8px 18px rgb(50, 49, 68);
+    transition: 1s;
+}
+
+.cert:hover {
+    box-shadow: 12px 12px 20px rgb(50, 49, 68);
+    transform: scale(1.01);
+}
+#certificate_img {
+    border-radius: 14px 0 0 14px;
+    height: 100%;
 }
